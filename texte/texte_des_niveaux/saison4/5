@@ -1,0 +1,19 @@
+--Écrire en Python la fonction ‘plus_longue_sous_sequence_commune’
+--qui prend en paramètre deux chaînes de caractères et
+--qui renvoie un booléen.
+
+('', ''): "''"
+('abc', 'def'): "''"
+('abc', 'abc'): "'abc'"
+('abc', 'a'): "'a'"
+('abc', 'bc'): "'bc'"
+('AGGTAB', 'GXTXAYB'): "'GTAB'"
+('ABCD', 'DCBA'): "'A'"
+('abc', 'ABC'): "''"
+('programming', 'computer'): "'om'"
+('ABCBDAB', 'BDCAB'): "'BDAB'"
+('ABCD', 'EACB'): "'ACB'"
+('XMJYAUZ', 'MZJAWXU'): "'MJAU'"
+('ABCDEF', 'ZYXWVUT'): "''"
+('apple', 'orange'): "'ae'"
+('algorithm', 'logarithm'): "'lorithm'"

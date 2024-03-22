@@ -1,0 +1,5 @@
+../ressource/perso/helper-head.png!!Helper : Indice : Une fonction retourne quelque chose, une procédure affiche ou calcule mais n'a pas de retour explicite.
+../ressource/perso/helper-head.png!!Helper : Indice : Fait en sorte que tes choix soit cohérents entre eux pour gagner le maximum d'étoiles.
+../ressource/perso/helper-head.png!!Helper : Indice : Un nombre est premier s'il admet exactement 2 diviseurs : 1 et lui-même.
+../ressource/perso/helper-head.png!!Helper : Indice : Pour insérer un élément dans un tableau en Python : tab[index où insérer] = élément.
+../ressource/perso/helper-head.png!!Helper : Indice : N'oublie pas que la boucle 'j' est imbriquée dans la boucle 'i'.

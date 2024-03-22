@@ -1,0 +1,5 @@
+../ressource/perso/helper-head.png!!Helper : Indice : Un mot est palindrome s'il peut se lire de la même manière dans les 2 sens.
+../ressource/perso/helper-head.png!!Helper : Indice : Pour t'aider, une suite est arithmétique si Un+1 − Un est une constante pour toutes valeurs de la série.
+../ressource/perso/helper-head.png!!Helper : Indice : Pour t'aider, une suite est géométrique si le ratio Un+1/Un est une constante pour toutes valeurs de la série.
+../ressource/perso/helper-head.png!!Helper : Indice : Pour t'aider, crée 2 variables 'sous_liste' : une sous liste pour récupérer la liste actuelle ainsi qu'une sous liste max.
+../ressource/perso/helper-head.png!!Helper : Indice : Pour t'aider, la plus longue sous séquence commune entre 'ABCDGH' et 'AEDFHR' est 'ADH'.

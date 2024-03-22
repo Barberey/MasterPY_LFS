@@ -1,0 +1,28 @@
+--Finir le pseudo-code de la fonction "tri_par_insertion"
+
+fonction triInsertion(tableau): -> liste
+variables
+##entrée
+####tableau tableau
+##interne
+####entier valeurCourante
+##sortie
+####tableau
+debut
+##pour chaque élément i allant de 1 à longueur(tableau) - 1 faire:
+####valeurCourante = {::}V{::}
+######position = {::}V{::}
+######{::}V{::} position > 0 et tableau[position - 1] > valeurCourante faire:
+########{::}V{::} = tableau[position - 1]
+########position = position - 1
+######fin_tantque
+####tableau[position] = {::}V{::}
+##fin_pour
+##retourner tableau
+fin
+
+&&tableau
+&&i
+&&tantque
+&&tableau[position]
+&&valeurCourante

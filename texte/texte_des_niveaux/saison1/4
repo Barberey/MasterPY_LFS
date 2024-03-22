@@ -1,0 +1,26 @@
+--Finir le pseudo-code de la fonction ‘est_pair’
+
+fonction {::}B{::}(n) -> {::}B{::}
+variables
+##entrée
+####entier n
+##sortie
+####booléen resultat
+début
+##Si ({::}B{::}) alors
+####{::}B{::}
+##fin_si
+##{::}B{::}
+fin
+
+!!parite+++parite_entier+++est_pair
+!!booléen+++void+++entier
+!!n%2 = 0+++n/2 = (n*2)/2+++(n//2)*2 == n
+!!écrire(“Nombre impair.”)+++Retourner Faux+++Retourner Vrai
+!!Retourner ((n//2)*2 == n)+++Retourner Faux+++“Nombre pair.”
+
+&&est_pair
+&&booléen
+&&n%2 = 0
+&&Retourner Vrai
+&&Retourner Faux

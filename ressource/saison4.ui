@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>saison_4</class>
+ <widget class="QWidget" name="saison_4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#saison_4{
+	background-image: url(:/img/printemps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+QPushButton{
+	background-color: red;
+}
+
+QPushButton#sais_suiv{
+	background-color: grey;
+}
+QPushButton#sais_prec{
+	background-color: grey;
+}
+QPushButton#save{
+	background-color: grey;
+}
+QPushButton#quit{
+	background-color: grey;
+}</string>
+  </property>
+  <widget class="QLabel" name="nbr_etoile">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_3_4">
+   <property name="geometry">
+    <rect>
+     <x>941</x>
+     <y>30</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_5_3">
+   <property name="geometry">
+    <rect>
+     <x>1099</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_3_1">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>30</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>1780</x>
+     <y>1020</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="niv_5">
+   <property name="geometry">
+    <rect>
+     <x>1078</x>
+     <y>520</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Niveau 5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_5_2">
+   <property name="geometry">
+    <rect>
+     <x>1048</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nbr_e_img">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_1_4">
+   <property name="geometry">
+    <rect>
+     <x>513</x>
+     <y>780</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_4_2">
+   <property name="geometry">
+    <rect>
+     <x>1308</x>
+     <y>170</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_3_5">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>30</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nom_joueur">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_1_3">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>780</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_2_2">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>390</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="niv_4">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1338</x>
+     <y>230</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Niveau 4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_2_3">
+   <property name="geometry">
+    <rect>
+     <x>552</x>
+     <y>390</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_4_1">
+   <property name="geometry">
+    <rect>
+     <x>1257</x>
+     <y>170</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>1020</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_3_2">
+   <property name="geometry">
+    <rect>
+     <x>839</x>
+     <y>30</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="niv_3">
+   <property name="geometry">
+    <rect>
+     <x>869</x>
+     <y>90</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Niveau 3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_4_5">
+   <property name="geometry">
+    <rect>
+     <x>1461</x>
+     <y>170</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_2_5">
+   <property name="geometry">
+    <rect>
+     <x>654</x>
+     <y>390</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="niv_2">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>450</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Niveau 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_5_1">
+   <property name="geometry">
+    <rect>
+     <x>997</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_2_4">
+   <property name="geometry">
+    <rect>
+     <x>603</x>
+     <y>390</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_4_3">
+   <property name="geometry">
+    <rect>
+     <x>1359</x>
+     <y>170</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_2_1">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>390</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sais_prec">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>1020</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monde precedent</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_5_5">
+   <property name="geometry">
+    <rect>
+     <x>1201</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_3_3">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>30</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_4_4">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>170</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_1_2">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>780</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_1_5">
+   <property name="geometry">
+    <rect>
+     <x>564</x>
+     <y>780</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="niv_1">
+   <property name="geometry">
+    <rect>
+     <x>433</x>
+     <y>840</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Niveau 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_5_4">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>460</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>780</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/petit-helper.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="e_1_1">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>780</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/img/star.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+  <include location="../venv/Lib/site-packages/qt5_applications/Qt/bin/ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

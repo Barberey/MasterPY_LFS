@@ -1,0 +1,5 @@
+../ressource/perso/helper-head.png!!Helper : Indice : L'annuaire est enfaite un tableau associatif (clé,valeur) avec comme clé les noms des habitants.
+../ressource/perso/helper-head.png!!Helper : Indice : 1 boucle permet de parcourir un tableau, donc 2 boucles permet de parcourir un tableau 2D.
+../ressource/perso/helper-head.png!!Helper : Indice : La variable 'k' va te permettre de faire le pont entre les 2 matrices.
+../ressource/perso/helper-head.png!!Helper : Indice : La suite de Fibonacci est une séquence infinie d'entiers.##La formule mathématique pour décrire la suite est F(n) = F(n-1) + F(n-2)
+../ressource/perso/helper-head.png!!Helper : Indice : Le Tri par insertion consiste à insèrer chaque élément à sa position correcte, déplaçant les éléments nécessaires.

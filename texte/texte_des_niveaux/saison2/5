@@ -1,0 +1,37 @@
+--Finir le pseudo-code de la fonction "tri_par_selection"
+
+{::}B{::} tri_par_selection(liste): -> liste
+variable
+##entrée
+####tableau liste
+##interne
+####entier indice_min
+##sortie
+####tableau
+debut
+##pour indice_i variant de 0 à longueur(liste) - 1:
+####indice_min = {::}B{::}
+####pour indice_j variant de {::}B{::} à {::}B{::}:
+######si liste[indice_j] < liste[indice_min]:
+########indice_min = indice_j
+######fin_si
+####fin_pour
+####échanger {::}B{::} avec liste[indice_min]
+##fin_pour
+##retourne {::}B{::}
+fin
+
+
+!!fonction+++procedure+++void
+!!indice_i+++liste[i]+++indice_min + 1
+!!indice_i + 1+++indice_min+++0
+!!longueur(liste) - 1+++longueur(liste)+++longueur(liste) + 1
+!!liste[indice_i]+++liste[indice_j]+++min
+!!liste+++indice_min+++Vraie
+
+&&fonction
+&&indice_i
+&&indice_i + 1
+&&longueur(liste) - 1
+&&liste[indice_i]
+&&liste

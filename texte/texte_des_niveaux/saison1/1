@@ -1,0 +1,24 @@
+--Complète le pseudo-code
+
+programme principal
+variables
+##entrée
+####réel a, b
+##sortie
+####{::}B{::} cl
+début
+##écrire("Entrez la valeur réelle de a : ")
+##a <- lire()
+##écrire("Entrez la valeur réelle de b : ")
+##b <- lire()
+##cl <- {::}B{::}
+##écrire("La moyenne réelle Cl = {::}B{::}")
+fin
+
+!!entier+++réel+++float
+!!(a*b)/2+++(a+b)/2+++(a+b)//2
+!![cl]+++cl+++{cl}
+
+&&réel
+&&(a+b)/2
+&&{cl}

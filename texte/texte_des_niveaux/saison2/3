@@ -1,0 +1,34 @@
+--Finir le pseudo-code de la fonction ‘degre_f’
+--et le programme principale
+
+fonction convertir_fahrenheit_celsius(degre_f) -> {::}B{::}
+variables
+##entrée
+####réel degre_f
+##sortie
+####réel resultat
+début
+##resultat <- {::}B{::}
+##retourner resultat
+fin
+
+programme principal
+variables
+##entrée
+####réel temp
+##sortie
+####réel resultat
+début
+##écrire("Entrez la température : ")
+##{::}B{::}
+##resultat <- convertir_fahrenheit_celsius(temp)
+##écrire("La température convertie est : ", resultat)
+fin
+
+!!void+++entier+++réel
+!!(9∗C)/5+32+++(9∗degre_f)/5+32+++((degre_f−32)∗5)/9
+!!lire(resultat)+++temp <- lire()+++resultat <- lire()
+
+&&réel
+&&((degre_f−32)∗5)/9
+&&temp <- lire()

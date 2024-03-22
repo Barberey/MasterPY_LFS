@@ -1,0 +1,22 @@
+--Écrire en Python la fonction ‘estPalindrome’
+--qui prend en paramètre un mot et qui renvoie un booléen.
+
+radar: True
+python: False
+level: True
+hello: False
+kayak: True
+a man a plan a canal panama: True
+never odd or even: True
+not a palindrome: False
+Able , was I saw eLba: True
+race car: True
+1a2b3c4c3b2a1: True
+hello world: False
+: True
+a: True
+b: True
+ab: False
+ba: False
+aa: True
+bb: True

@@ -1,0 +1,23 @@
+--Finir sa fonction Python ‘multiplication_matrices’.
+
+def multiplication_matrices(matrice1, matrice2):
+### Initialiser la matrice résultat avec des zéros
+##resultat = [[0 for _ in range(len(matrice2[0]))] for _ in range(len(matrice1))]
+
+##for i in range(len(matrice1)):
+####for j in range(len(matrice2[0])):
+######for k in {::}V{::}:
+########{::}V{::} += {::}V{::} * {::}V{::}
+##return resultat
+
+# Programme principal
+matrice1 = [[1, 2, 3], [4, 5, 6]] # Dimensions 2x3
+matrice2 = [[7, 8], [9, 10], [11, 12]] # Dimensions 3x2
+
+resultat = multiplication_matrices(matrice1, matrice2)
+print(resultat)
+
+&&range(len(matrice2))
+&&resultat[i][j]
+&&matrice1[i][k]
+&&matrice2[k][j]

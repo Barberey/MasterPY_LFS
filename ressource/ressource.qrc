@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="img">
+    <file>logo_MasterPY.png</file>
+    <file>star.png</file>
+    <file>perso/bossautomne.png</file>
+    <file>perso/bossete.png</file>
+    <file>perso/bosshiver.png</file>
+    <file>perso/bossprintems.png</file>
+    <file>perso/carac.png</file>
+    <file>perso/helper.png</file>
+    <file>perso/helper-head.png</file>
+    <file>perso/nous-head.png</file>
+    <file>perso/petit-helper.png</file>
+    <file>fond/automne.png</file>
+    <file>fond/automne-boss.png</file>
+    <file>fond/automne-niv.png</file>
+    <file>fond/boss-final.png</file>
+    <file>fond/ete.png</file>
+    <file>fond/ete-boss.png</file>
+    <file>fond/ete-niv.png</file>
+    <file>fond/fond.png</file>
+    <file>fond/hiver.png</file>
+    <file>fond/hiver-boss.png</file>
+    <file>fond/hiver-niv.png</file>
+    <file>fond/printemps.png</file>
+    <file>fond/printemps-boss.png</file>
+    <file>fond/printemps-niv.png</file>
+  </qresource>
+</RCC>

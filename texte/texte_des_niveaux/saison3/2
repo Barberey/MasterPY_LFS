@@ -1,0 +1,23 @@
+--Finir sa fonction Python ‘addition_matrices’.
+
+def addition_matrices(matrice1, matrice2):
+### Initialiser la matrice résultat avec des zéros
+##resultat = [[0 for _ in range(len(matrice1[0]))] for _ in range(len(matrice1))]
+
+##for i in {::}V{::}:
+####for j in {::}V{::}:
+######{::}V{::} = {::}V{::} + {::}V{::}
+##return resultat
+
+# Programme principal
+matrice1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+matrice2 = [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+
+resultat = addition_matrices(matrice1, matrice2)
+print(resultat)
+
+&&range(len(matrice1))
+&&range(len(matrice1[0]))
+&&resultat[i][j]
+&&matrice1[i][j]
+&&matrice2[i][j]

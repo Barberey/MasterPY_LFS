@@ -1,0 +1,61 @@
+--Réaliser le pseudo-code lui permettant de deviner le nombre secret
+
+fonction guessSecret(mini, maxi, essais) -> booléen
+variables
+##entrée
+####entier mini, maxi, secret, essais
+##interne
+####entier nombre
+##sortie
+####booléen
+début
+##secret <- valeur aléatoire entre mini et maxi
+##nombre <- {::}B{::}
+##Tant que ({::}B{::}) faire
+####écrire("Entrez une valeur : ")
+####nombre <- lire()
+####Si (nombre = secret) alors
+######{::}B{::}
+####fin_si
+####Si (nombre > secret) alors
+######écrire(“Le nombre secret est plus petit”)
+####Sinon
+######écrire(“Le nombre secret est plus grand”)
+####fin_si
+####essais <- essais-1
+##fin_tq
+##écrire(“Le nombre secret était {secret}”)
+##{::}B{::}
+fin
+
+programme principal
+variables
+##entrée
+####entier mn, mx, essais
+##sortie
+####booléen res
+début
+##écrire(“Valeur minimum souhaitée : ”)
+##mn<- lire()
+##écrire(“Valeur maximum souhaitée : ”)
+##mx<- lire()
+##écrire(“Nombre d’essais souhaités : ”)
+##essais <- lire()
+##res <- guessSecret(mn, mx, essais)
+##Si res alors
+####écrire(“Félicitations, vous avez gagné.”)
+##Sinon
+####écrire(“Dommage, vous avez perdu.”)
+##fin_si
+fin
+
+!!0+++9999+++mini-1
+
+!!nombre est secret+++essais > 0+++maxi > 0
+!!écrire(“Félicitations, vous avez gagné.”)+++Retourner Faux+++Retourner Vrai
+!!Retourner (nombre == secret)+++Retourner Faux+++“Dommage, vous avez perdu.”
+
+&&0
+&&essais > 0
+&&Retourner Vrai
+&&Retourner Faux

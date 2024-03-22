@@ -1,0 +1,35 @@
+--Réaliser le pseudo-code d’un programme lui permettant de dire 50 fois Bonjour
+
+{::}B{::} afficher_bonjour(n)
+variables
+##entrée
+####entier n
+##sortie
+####{::}B{::}
+début
+##Pour i allant de {::}B{::} faire
+####écrire(“Bonjour”)
+##fin_pour
+fin
+
+programme principal
+variables
+##entrée
+####entier val1
+##sortie
+####/
+début
+##écrire(“Combien de fois voulez vous dire bonjour : ”)
+##val1 <- lire()
+##{::}B{::}
+fin
+
+!!fonction+++void+++procedure
+!!string+++chaine+++/
+!!0 à n exclus+++1 à n exclus+++0 à n inclus
+!!afficher(n)+++afficher(val1)+++afficher_bonjour(val1)
+
+&&procedure
+&&/
+&&0 à n exclus
+&&afficher_bonjour(val1)

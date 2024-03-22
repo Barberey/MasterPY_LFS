@@ -1,0 +1,26 @@
+--Finir sa fonction Python ‘ajouter_numero’ et du
+--programme principal pour l'utiliser.
+
+def ajouter_numero(dictionnaire):
+##prenom = input("Prénom : ")
+##tel = input("Téléphone : ")
+##{::}V{::}
+##return dictionnaire
+
+# Programme principal
+annuaire = {
+##'Rayan': '0698276894',
+##'Boyan': '0660606060'
+}
+valeur = ""
+
+while ({::}V{::}):
+##annuaire = {::}V{::}
+##valeur = input("Tapez 'fin' pour arrêter sinon appuyez sur entrer : ")
+
+print(annuaire)
+
+
+&&dictionnaire[prenom]=tel
+&&valeur!="fin"
+&&ajouter_numero(annuaire)

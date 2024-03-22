@@ -1,0 +1,41 @@
+--Finir le pseudo-code de sa fonction et du programme principal pour l’utiliser
+
+fonction calculer_aire_rectangle(long, larg) -> {::}B{::}
+variables
+##entrée
+####réel long, larg
+##{::}B{::}
+####/
+##sortie
+####réel cl
+début
+##aire <- long*larg
+##{::}B{::}
+fin
+
+programme principal
+variables
+##entrée
+####{::}B{::}
+##sortie
+####réel cl
+début
+##écrire(“Entrez la valeur réelle de la longueur : ”)
+##val1 <- lire()
+##écrire(“Entrez la valeur réelle de la largeur : ”)
+##val2 <- lire()
+##res <- {::}B{::}
+##écrire(“Un rectangle de {long} de longueur et {larg} de largeur a une aire de {res}”)
+fin
+
+!!void+++entier+++réel
+!!paramètres+++interne+++arguments
+!!écrire(aire)+++retourner aire+++return aire
+!!réel val1, val2+++entier a, b+++float val1, val2
+!!calculer_aire_rectangle()+++calculer_aire_rectangle(val1, val2)+++long*larg
+
+&&réel
+&&interne
+&&retourner aire
+&&réel val1, val2
+&&calculer_aire_rectangle(val1, val2)

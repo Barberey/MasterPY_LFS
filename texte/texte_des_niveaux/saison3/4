@@ -1,0 +1,19 @@
+--Finir le pseudo-code pour la fonction "Fibonacci"
+
+fonction Fibonacci(n) -> entier
+variable
+##entrée
+####entier n
+##sortie
+####entier
+debut
+##Si n <= 1 Alors
+####{::}V{::}
+##Sinon
+####Retourner {::}V{::} + {::}V{::}
+##Fin Si
+fin
+
+&&Retournern
+&&Fibonacci(n-1)
+&&Fibonacci(n-2)
